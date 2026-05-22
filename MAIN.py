@@ -30,7 +30,7 @@ def load_parquet_data(url):
         return None
 
 # CHANGE THIS URL to your new uploaded QSAR.parquet file link!
-PARQUET_URL = "https://github.com/morlockmaimai-ui/Drug-Target-Activity-Analyzer-/releases/download/v1.0.0/QSAR.parquet"
+PARQUET_URL = "QSAR.parquet"
 
 with st.spinner("Streaming compressed Parquet dataset... This is 10x lighter on memory!"):
     df = load_parquet_data(PARQUET_URL)
