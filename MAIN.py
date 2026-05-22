@@ -1,4 +1,4 @@
-import streamlit as pl
+import streamlit as st
 import polars as pl
 import plotly.express as px
 import pandas as pd
